@@ -12,5 +12,4 @@ let main _ =
     let myWindow = MyWindow()
     myWindow.MyButton.Click.Add MyButton_onClick
 
-    Application().Run myWindow |> ignore
-    0 // return an integer exit code
+    Application().Run myWindow
